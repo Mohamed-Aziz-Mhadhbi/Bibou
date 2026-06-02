@@ -1,3 +1,184 @@
 ﻿<!DOCTYPE html>
 <html lang="en-US">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Home | Our House Preschools</title><meta name="description" content="Our House Preschools provides nurturing early childhood care, classroom programs, family resources, and location information."><link rel="stylesheet" href="css/bootstrap.min.css"><link rel="stylesheet" href="css/font-awesome.min.css"><link rel="stylesheet" href="css/site.css"></head><body><header class="site-header"><nav class="navbar navbar-static-top"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src="images/OurHouse6pct.png" alt="Our House Preschools"></a></div><div class="collapse navbar-collapse" id="main-nav"><ul class="nav navbar-nav navbar-right"><li class="active"><a href="index.html">Home</a></li><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a><ul class="dropdown-menu"><li><a href="stephens-house.html">Stephen's House</a></li><li><a href="olivias-house.html">Olivia's House</a></li><li><a href="virtual-tours.html">Virtual Tours</a></li><li><a href="pricingtables.html">Pricing</a></li><li><a href="curriculum.html">Curriculum</a></li><li><a href="policies.html">Policies</a></li><li><a href="illness.html">Illness</a></li></ul></li><li><a href="calendar.html">Calendar</a></li><li><a href="onlinepayment.html">Online Payment</a></li><li><a href="contact.html">Contact</a></li></ul></div></div></nav></header><main><section class="hero"><div class="container"><h1>Our House Preschools</h1><p>A warm, playful place where children grow through care, curiosity, and confidence.</p><p><a class="btn btn-brand btn-lg" href="contact.html">Schedule a Visit</a></p></div></section><section class="section section-purple"><div class="container text-center"><h2>Welcome To Our House Preschools</h2><p class="lead">We support children through child-centered play, thoughtful routines, and classrooms designed for every age.</p></div></section><section id="classes" class="section section-soft"><div class="container"><div class="section-heading"><h2>Our Classes</h2><p>Discover nurturing classes designed for different age groups. Select a class to see the classroom, group size, and teachers.</p></div><div class="text-center" style="margin-bottom:35px;"><button type="button" class="btn btn-outline-brand class-filter active" data-filter="all">All Classes</button> <button type="button" class="btn btn-outline-brand class-filter" data-filter="nursery">Nursery</button> <button type="button" class="btn btn-outline-brand class-filter" data-filter="toddler">Toddler</button> <button type="button" class="btn btn-outline-brand class-filter" data-filter="prek">Pre-K</button></div><div class="row"><div class="col-sm-6 col-md-4 class-col"><article class="class-card" data-category="nursery" onclick="showClassDetail(0)"><img src="images/nursery_classroom.jpg" alt="Nursery classroom"><div class="card-body"><h3>Little Explorers</h3><p>Ages 0 - 18 months</p><p><span class="badge-soft">Max 8 children</span></p></div></article></div><div class="col-sm-6 col-md-4 class-col"><article class="class-card" data-category="toddler" onclick="showClassDetail(1)"><img src="images/toddler_calssroom.jpg" alt="Toddler classroom"><div class="card-body"><h3>Curious Toddlers</h3><p>Ages 18 - 36 months</p><p><span class="badge-soft">Max 12 children</span></p></div></article></div><div class="col-sm-6 col-md-4 class-col"><article class="class-card" data-category="prek" onclick="showClassDetail(2)"><img src="images/pre-k.jpg" alt="Pre-K classroom"><div class="card-body"><h3>Bright Stars Pre-K</h3><p>Ages 3 - 5 years</p><p><span class="badge-soft">Max 16 children</span></p></div></article></div></div></div></section><section class="section"><div class="container"><div class="row text-center"><div class="col-sm-4"><span class="feature-icon bg-pink"><i class="fa fa-heart"></i></span><h3>Nursery</h3><p>Gentle care, sensory exploration, and routines that help infants feel secure.</p></div><div class="col-sm-4"><span class="feature-icon bg-blue"><i class="fa fa-child"></i></span><h3>Toddler</h3><p>Early learning skills in a space where independence and curiosity are encouraged.</p></div><div class="col-sm-4"><span class="feature-icon bg-orange"><i class="fa fa-star"></i></span><h3>Pre-K</h3><p>School readiness through literacy, math, science, creativity, and social growth.</p></div></div></div></section><section class="section section-soft"><div class="container"><div class="row"><div class="col-md-6"><h2>Why Our House Preschools?</h2><p>Families choose us for caring teachers, warm classrooms, and programs that balance structure with play. Children are supported as whole people: socially, emotionally, creatively, and academically.</p><p><a class="btn btn-brand" href="curriculum.html">Explore Curriculum</a></p></div><div class="col-md-6"><img src="images/children.jpg" alt="Children learning together" class="img-responsive img-rounded"></div></div></div></section></main><div class="modal fade" id="classModal" tabindex="-1" role="dialog" aria-labelledby="classModalLabel"><div class="modal-dialog modal-lg" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h3 class="modal-title" id="classModalLabel"></h3></div><div class="modal-body" id="classModalBody"></div></div></div></div><footer><div class="site-footer-top"><div class="container"><div class="row"><div class="col-sm-4"><h4>Our House Preschools</h4><p>Nurturing classrooms for infants, toddlers, and pre-kindergarten children.</p></div><div class="col-sm-4"><h4>Locations</h4><p>Stephen's House<br>Olivia's House<br>Caroline's House</p></div><div class="col-sm-4"><h4>Contact</h4><p><a href="contact.html">Send a message</a><br><a href="calendar.html">View calendar</a></p></div></div></div></div><div class="site-footer-bottom"><div class="container"><p class="text-right">Copyright Our House Preschools 2026</p></div></div></footer><script src="js/jquery.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/site.js"></script></body></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Our House Preschools</title>
+    <meta name="description"
+        content="Our House Preschools provides nurturing early childhood care, classroom programs, family resources, and location information.">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-static-top">
+            <div class="container">
+                <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#main-nav" aria-expanded="false"><span class="sr-only">Toggle
+                            navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+                            class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img
+                            src="images/OurHouse6pct.png" alt="Our House Preschools"></a></div>
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="stephens-house.html">Stephen's House</a></li>
+                                <li><a href="olivias-house.html">Olivia's House</a></li>
+                                <li><a href="virtual-tours.html">Virtual Tours</a></li>
+                                <li><a href="pricingtables.html">Pricing</a></li>
+                                <li><a href="curriculum.html">Curriculum</a></li>
+                                <li><a href="policies.html">Policies</a></li>
+                                <li><a href="illness.html">Illness</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="onlinepayment.html">Online Payment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Our House Preschools</h1>
+                <p>A warm, playful place where children grow through care, curiosity, and confidence.</p>
+                <p><a class="btn btn-brand btn-lg" href="contact.html">Schedule a Visit</a></p>
+            </div>
+        </section>
+        <section class="section section-purple">
+            <div class="container text-center">
+                <h2>Welcome To Our House Preschools</h2>
+                <p class="lead">We support children through child-centered play, thoughtful routines, and classrooms
+                    designed for every age.</p>
+            </div>
+        </section>
+        <section id="classes" class="section section-soft">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Our Classes</h2>
+                    <p>Discover nurturing classes designed for different age groups. Select a class to see the
+                        classroom, group size, and teachers.</p>
+                </div>
+                <div class="text-center" style="margin-bottom:35px;"><button type="button"
+                        class="btn btn-outline-brand class-filter active" data-filter="all">All Classes</button> <button
+                        type="button" class="btn btn-outline-brand class-filter" data-filter="nursery">Nursery</button>
+                    <button type="button" class="btn btn-outline-brand class-filter"
+                        data-filter="toddler">Toddler</button> <button type="button"
+                        class="btn btn-outline-brand class-filter" data-filter="prek">Pre-K</button></div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 class-col">
+                        <article class="class-card" data-category="nursery" onclick="showClassDetail(0)"><img
+                                src="images/nursery_classroom.jpg" alt="Nursery classroom">
+                            <div class="card-body">
+                                <h3>Little Explorers</h3>
+                                <p>Ages 0 - 18 months</p>
+                                <p><span class="badge-soft">Max 8 children</span></p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-md-4 class-col">
+                        <article class="class-card" data-category="toddler" onclick="showClassDetail(1)"><img
+                                src="images/toddler_calssroom.jpg" alt="Toddler classroom">
+                            <div class="card-body">
+                                <h3>Curious Toddlers</h3>
+                                <p>Ages 18 - 36 months</p>
+                                <p><span class="badge-soft">Max 12 children</span></p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-md-4 class-col">
+                        <article class="class-card" data-category="prek" onclick="showClassDetail(2)"><img
+                                src="images/pre-k.jpg" alt="Pre-K classroom">
+                            <div class="card-body">
+                                <h3>Bright Stars Pre-K</h3>
+                                <p>Ages 3 - 5 years</p>
+                                <p><span class="badge-soft">Max 16 children</span></p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-4"><span class="feature-icon bg-pink"><i class="fa fa-heart"></i></span>
+                        <h3>Nursery</h3>
+                        <p>Gentle care, sensory exploration, and routines that help infants feel secure.</p>
+                    </div>
+                    <div class="col-sm-4"><span class="feature-icon bg-blue"><i class="fa fa-child"></i></span>
+                        <h3>Toddler</h3>
+                        <p>Early learning skills in a space where independence and curiosity are encouraged.</p>
+                    </div>
+                    <div class="col-sm-4"><span class="feature-icon bg-orange"><i class="fa fa-star"></i></span>
+                        <h3>Pre-K</h3>
+                        <p>School readiness through literacy, math, science, creativity, and social growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-soft">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Why Our House Preschools?</h2>
+                        <p>Families choose us for caring teachers, warm classrooms, and programs that balance structure
+                            with play. Children are supported as whole people: socially, emotionally, creatively, and
+                            academically.</p>
+                        <p><a class="btn btn-brand" href="curriculum.html">Explore Curriculum</a></p>
+                    </div>
+                    <div class="col-md-6"><img src="images/children.jpg" alt="Children learning together"
+                            class="img-responsive img-rounded"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="modal fade" id="classModal" tabindex="-1" role="dialog" aria-labelledby="classModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="classModalLabel"></h3>
+                </div>
+                <div class="modal-body" id="classModalBody"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="site-footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h4>Our House Preschools</h4>
+                        <p>Nurturing classrooms for infants, toddlers, and pre-kindergarten children.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Locations</h4>
+                        <p>Stephen's House<br>Olivia's House<br>Caroline's House</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Contact</h4>
+                        <p><a href="contact.html">Send a message</a><br><a href="calendar.html">View calendar</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer-bottom">
+            <div class="container">
+                <p class="text-right">Copyright Our House Preschools 2026</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
+</body>
+
+</html>
